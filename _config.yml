@@ -2,7 +2,7 @@ theme: jekyll-theme-merlot
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "Spring Boot 实战.md" # an empty string here means all files in the project
       type: "pages" # previously `post` in Jekyll 2.2.
     values:
       layout: "default" #default
