@@ -3,6 +3,14 @@ defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      type: "pages" # previously `post` in Jekyll 2.2.
     values:
-      layout: "default"
+      layout: "jekyll" #default
+
+  -
+    scope:
+      path: "projects"
+      type: "pages" # previously `page` in Jekyll 2.2.
+    values:
+      layout: "project" # overrides previous default layout
+      author: "Mr. Hy"
